@@ -75,4 +75,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/basalt79/mg-backend-akka</url>
+        </repository>
+      </distributionManagement>
 </project>
