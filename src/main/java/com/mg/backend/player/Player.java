@@ -27,4 +27,28 @@ public class Player {
         this.shirtNumber = shirtNumber;
         this.position = position;
     }
+
+  public String getId() {
+    return id;
+  }
+
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  public String getClub() {
+    return club;
+  }
+
+  public int getShirtNumber() {
+    return shirtNumber;
+  }
+
+  public Position getPosition() {
+    return position;
+  }
 }
